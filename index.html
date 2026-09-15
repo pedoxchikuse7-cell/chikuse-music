@@ -100,5 +100,22 @@ footer{padding:30px 7%;display:flex;justify-content:space-between;color:#777;fon
 document.querySelector('.menu').onclick=()=>document.querySelector('nav').classList.toggle('open');
 document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.querySelector('nav').classList.remove('open'));
 </script>
+  <section id="music">
+  <h2>My Music 🎵</h2>
+
+  <div class="song">
+    <h3>My Latest Song</h3>
+    <audio controls>
+      <source src="YOUR_SONG_URL_HERE" type="audio/mpeg">
+      Your browser does not support audio playback.
+    </audio>
+  </div>
+
+  <p>
+    <a href="YOUR_YOUTUBE_LINK_HERE" target="_blank">
+      ▶️ Listen on YouTube
+    </a>
+  </p>
+  </section>
 </body>
 </html>
