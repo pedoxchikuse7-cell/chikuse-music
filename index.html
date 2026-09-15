@@ -85,7 +85,17 @@ footer{padding:30px 7%;display:flex;justify-content:space-between;color:#777;fon
 <p class="small">Replace the email address and WhatsApp number with your real details before publishing.</p>
 </section>
 
-<footer><p>© 2026 Chikuse Music • Pedox</p><p>Afrobeat • Gospel • Amapiano</p></footer>
+<footer>
+
+<section id="admin" class="section dark">
+  <p class="eyebrow">ADMIN</p>
+  <h2>Upload <span>Music</span></h2>
+  <p>Upload a song to Chikuse Music.</p>
+
+  <input type="file" accept="audio/*">
+  <button class="btn primary">Upload Song</button>
+</section>
+
 <script>
 document.querySelector('.menu').onclick=()=>document.querySelector('nav').classList.toggle('open');
 document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.querySelector('nav').classList.remove('open'));
